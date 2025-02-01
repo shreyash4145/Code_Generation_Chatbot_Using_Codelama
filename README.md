@@ -27,6 +27,7 @@ This project is an automatic code generator and coding assistant chatbot using M
 ## Docker Deployment Configuration 
 To deploy the application using Docker, you need to create a Dockerfile in the root directory of your
 project. Here's an example Dockerfile:
-dockerfile
+```dockerfile
 docker build -t code-generator-llama .
 docker run -p 8501:8501 code-generator-llama# Code_Generation_Chatbot_Using_Codelama
+```
